@@ -5,3 +5,8 @@ novoSalario = salario + (aumento * salario);
 novoSalarioInflacao = novoSalario - (aumento * salario);
 console.log(novoSalario);
 console.log(novoSalarioInflacao);
+
+var strnovoSalario = `O novo salário é: \n R$\t ${novoSalario}`;
+var strnovoSalarioInflacao = `O novo salário aplicada inflação é: \n R$ ${novoSalarioInflacao}`;
+console.log(strnovoSalario);
+console.log(strnovoSalarioInflacao);
